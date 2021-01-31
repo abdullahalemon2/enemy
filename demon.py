@@ -120,7 +120,7 @@ def menu():
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
-		except IOError:
+	except IOError:
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
 			menu()
