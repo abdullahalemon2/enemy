@@ -72,20 +72,18 @@ logo='''
  | |  | |/ _ \ '_ ` _ \ / _ \| '_ \ 
  | |__| |  __/ | | | | | (_) | | | |
  |_____/ \___|_| |_| |_|\___/|_| |_|
-
-Use at your own risk
+Pakistani Account Cloner
 --------------------------------------------------
 ➣ Author     : Demon
 ➣ GitHub     : https://GitHub.com/abdullahalemon2
 ➣ Made with  : Imranvau🖤
-➣ Pre help   : Faisal Ahmed🖤
 --------------------------------------------------
                                 '''
 os.system('clear')
 print (logo)
 
 CorrectUsername = "Demon"
-CorrectPassword = "nologin"
+CorrectPassword = "hanadar"
 
 
 loop = 'true'
@@ -112,7 +110,6 @@ id = []
 def menu():
 	os.system('clear')
 	print logo
-	print("Pakistani Account Cloner")
 	print("Input any code")
 	try:
 			c = raw_input(" choose code  : ")
