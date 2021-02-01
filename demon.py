@@ -113,7 +113,7 @@ def menu():
 	print("Input any code")
 	try:
 			c = raw_input(" choose code  : ")
-			k="+92"
+			k="+920"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
